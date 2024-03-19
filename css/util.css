@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --main-bg-color: rgb(248, 180, 180);
+    --font1: "Poppins", sans-serif;
+    --font2: "Roboto", sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.font-1 {
+    font-family: var(--font1);
+}
+
+.font-2 {
+    font-family: var(--font2);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.max-width1 {
+    max-width: 80vw;
+}
+
+.max-width2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.mx-2 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.btn {
+    padding: 0 15px;
+    /*padding-top: 3px;*/
+    /*margin: 0 13px;*/
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: var(--font2);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    height: 30px;
+}
+
+.btn:hover {
+    color: rgb(12, 12, 12);
+    background: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 0px 5px;
+    /*  padding-top: 3px; */
+    margin: 0 13px;
+    font-size: 16px;
+    font-family: var(--font2);
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font1);
+}
+
+.form-box input,
+textarea {
+    width: 52vw;
+    padding: 8px 6px;
+    margin: 7px 0;
+    font-size: 16px;
+    font-family: var(--font1);
+    border: 2px solid rgb(245, 198, 112);
+    border-radius: 5px;
+}

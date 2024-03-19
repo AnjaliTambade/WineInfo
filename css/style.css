@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 10px;
+    font-family: var(--font1);
+  /*  height: 74px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*  background-color: rgb(252, 232, 232); */
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+    /*align-items: center;*/
+}
+
+.nav-left span {
+    font-size: 35px;
+    padding-top: 2px;
+    padding-bottom: 23px;
+    font-weight: bolder;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 20px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 14px;
+    font-family: var(--font2);
+}
+
+.nav-left ul li a:hover {
+    color: rgb(240, 143, 143);
+    font-weight: bolder;
+
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+.content-right{
+    margin: 0px;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    /* background-color: rgb(250, 250, 252); */
+    padding: 9px;
+    position: relative;
+
+}
+
+.content::after {
+    content: "";
+    background-image: url('../assets/wine1.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+}
+
+.content-left {
+    font-family: var(--font1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 32px;
+    padding: 49px;
+    z-index: 1;
+}
+
+.content-right {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 255px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.home-articles {
+    background-color: rgb(247, 242, 242, 0.5);
+    padding-top: 18px;
+    margin-top: 23px;
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article-img img {
+    height: 150px;
+    width: 200px;
+}
+
+.home-article-contet {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-contet a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(247, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+}
+

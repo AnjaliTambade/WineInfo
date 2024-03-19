@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/blogpost.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Wine Info</title>
+
+</head>
+
+<body>
+    <nav class="navigation max-width1 m-auto">
+        <div class="nav-left">
+            <a href="./index.html"><span><img src="assets/logo.jpg" alt="logo" width="60px"></span></a>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Search Articals">
+                <button class="btn"><a href="./search.html">Search</a></button>
+            </form>
+        </div>
+    </nav>
+    <div class=" max-width1 m-auto">
+        <hr>
+    </div>
+    <div class="contact-content max-width1 m-auto  font-1">
+        <div class="max-width1 m-auto mx-2 font-1">
+            <h2>Feel Free to Contact Us</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+             <input type="hidden" name="access_key" value="d1920214-f803-4f8d-bebb-16634244add2">
+
+                <div class="form-box"> <input type="text" name="name" placeholder="Enter Your Name" required></div>
+                <div class="form-box"> <input type="text" name="email" placeholder="Enter Your E-mail ID" required></div>
+                <div class="form-box"> <input type="text" name="phone" placeholder="Enter Your Phone Number" required>
+                </div>
+                <div class="form-box"> <textarea name="message" cols="30" rows="10"
+                        placeholder="How Can I Help You" required></textarea></div>
+                <div class="form-box"> <button class="btn">Submit</button></div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="footer  m-auto">
+        <p>Copyright &copy; WineInfo.com </p>
+    </div>
+
+
+</body>
+
+</html>
